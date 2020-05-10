@@ -1,0 +1,40 @@
+/* * {
+    border: red 1px solid;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    color: crimson;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    align-self: center;
+    width: 90px;
+    height: 90px;
+}
+
+h1 {
+    align-self: flex-end;
+    
+    font-size: 4em;
+
+    padding: 0;
+    margin: 0 20px;
+}
+
+main p {
+    text-align: center;
+    font-weight: 700;
+}
