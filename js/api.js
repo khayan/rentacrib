@@ -8,10 +8,10 @@ async function buscarCribs() {
             const { photo, property_type, name, price, address } = crib;
             criarCard(photo, property_type, name, price);
         });
-
     } catch (error) {
         console.log("Ocorreu um erro inesperado...");
     }
+    return cribs;
 }
 
 buscarCribs();

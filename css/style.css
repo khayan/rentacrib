@@ -1,40 +1,95 @@
+/* -----------------------------------------------------------
+                            GABARITO
+----------------------------------------------------------- */
 /* * {
     border: red 1px solid;
 } */
-
-body {
+/* -----------------------------------------------------------
+                            GLOBAL
+----------------------------------------------------------- */
+body, ul, h1, h2, h3, p, li, a  {
     margin: 0;
     padding: 0;
-    color: crimson;
+    border: 0;
+    text-decoration: none;
 }
 
-header {
+body {
+    min-width: 100vh;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* -----------------------------------------------------------
+                            CARD
+----------------------------------------------------------- */
+#app {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    flex-wrap: wrap;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
+.card {
+    width: 32%;
+
+    background-color: #eee;
+    color: #333;
+    box-shadow: 0 0 #cccccc00;
+
+    margin-top: 2%;
+    border-radius: 15px;
+
+    transition: box-shadow .8s;
 }
 
-.logo {
-    align-self: center;
-    width: 90px;
-    height: 90px;
+.card:hover {
+    box-shadow: 0 5px #cccccc88;
 }
 
-h1 {
-    align-self: flex-end;
-    
-    font-size: 4em;
+.card:nth-child(3n) {
+    margin-right: 0;
+}
 
+.card:nth-child(3n+1) {
+    margin-left: 0;
+}
+
+.card-img {
+    border-radius: 15px 15px 0 0;
+}
+
+.card-info {
+    padding: 1.2em;
+}
+
+.crib-title, .crib-type, .crib-price {
+    margin: 0;
     padding: 0;
-    margin: 0 20px;
 }
 
-main p {
-    text-align: center;
-    font-weight: 700;
+.crib-title {
+    margin-top: .2em;
+    font-size: 1.3em;
+    font-weight: 900;
+}
+
+.crib-type {
+    font-weight: 400;
+}
+
+.crib-price {
+    text-align: end;
+    
+    font-size: 1.2em;
+    font-weight: 600;
+    color: tomato;
 }
