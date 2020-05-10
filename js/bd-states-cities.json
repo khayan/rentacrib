@@ -1,0 +1,60 @@
+{
+    "estados": [
+      {
+        "sigla": "SP",
+        "nome": "São Paulo",
+        "cidades": [
+          "Santos",
+          "São Paulo",
+          "Campos do Jordão",
+          "São Roque",
+          "Ilhabela"
+        ]
+      },
+      {
+        "sigla": "SC",
+        "nome": "Santa Catarina",
+        "cidades": [
+          "Florianópolis",
+          "Blumenau",
+          "Joinville",
+          "Itajaí",
+          "Balneário Camboriú"
+        ]
+      },
+      {
+        "sigla": "CE",
+        "nome": "Ceará",
+        "cidades": [
+          "Fortaleza",
+          "Jericoacoara",
+          "Guaramiranga",
+          "Icapuí",
+          "Beberibe"
+        ]
+      },
+      {
+        "sigla": "PE",
+        "nome": "Pernambuco",
+        "cidades": [
+          "Olinda",
+          "Recife",
+          "Porto de Galinhas",
+          "Fernando de Noronha",
+          "Caruaru"
+        ]
+      },
+      {
+        "sigla": "MG",
+        "nome": "Minas Gerais",
+        "cidades": [
+          "Ouro Preto",
+          "Diamantina",
+          "Belo Horizonte",
+          "Poços de Caldas",
+          "Capitólio",
+          "São Tomé das Letras"
+        ]
+      }
+    ]
+}
