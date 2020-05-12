@@ -47,7 +47,8 @@ header img {
 h1 {
     margin-top: 15px;
     margin-left: 20px;
-    color: tomato;
+    color: #8cc927;
+    font-size: 3em;
 }
 /* -----------------------------------------------------------
                             CARD
@@ -60,6 +61,7 @@ h1 {
 
 .card {
     max-width: 32%;
+    height: fit-content;
 
     background-color: #fff;
     color: #333;
@@ -86,12 +88,14 @@ h1 {
 .card-img {
     border-radius: 15px 15px 0 0;
     width: 100%;
-    height: 60%;
+    height: 40vh;
     object-fit: cover;
 }
 
 .card-info {
     padding: 1.2em;
+    display: flex;
+    flex-direction: column;
 }
 
 .crib-title, .crib-type, .crib-price {
@@ -111,9 +115,14 @@ h1 {
 }
 
 .crib-price {
-    text-align: end;
-    
+    align-self: flex-end;
+
     font-size: 1.2em;
     font-weight: 600;
-    color: tomato;
+
+    background-color: #8cc927;
+    color: white;
+
+    padding: 10px;
+    border-radius: 10px;
 }

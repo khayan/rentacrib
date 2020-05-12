@@ -22,7 +22,6 @@ function criarCard(photo, property_type, name, price) {
         h3.innerText = name.toLowerCase();
     }
 
-
     const h4 = document.createElement('h4');
     h4.classList.add('crib-type');
     h4.innerText = property_type;
