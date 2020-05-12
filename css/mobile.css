@@ -1,4 +1,4 @@
-@media (max-width: 414px) 
+@media (min-width: 215px) and (max-width: 414px) 
 {
     header {
         justify-content: center;
