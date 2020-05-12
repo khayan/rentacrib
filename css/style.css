@@ -60,7 +60,7 @@ h1 {
 }
 
 .card {
-    max-width: 32%;
+    width: 32%;
     height: fit-content;
 
     background-color: #fff;
@@ -123,6 +123,7 @@ h1 {
     background-color: #8cc927;
     color: white;
 
+    margin-top: 30px;
     padding: 10px;
     border-radius: 10px;
 }
