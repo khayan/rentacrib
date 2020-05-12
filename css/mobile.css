@@ -1,0 +1,27 @@
+@media (max-width: 414px) 
+{
+    header {
+        justify-content: center;
+    }
+
+    #lista-cribs {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .card {
+        width: 80%;
+        align-self: center;
+        margin: 2% auto;
+    }
+
+    .card:nth-child(3n),
+    .card:nth-child(3n+1) {
+        margin: 4% auto;
+    }
+
+    .card-img {
+        height: 60vh;
+    }
+}
