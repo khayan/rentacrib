@@ -1,7 +1,11 @@
-@media only screen and (max-width: 414px) 
+@media only screen and (max-width: 600px) 
 {
     header {
         justify-content: center;
+    }
+
+    h1 {
+        font-size: 2em;
     }
 
     #lista-cribs {
@@ -22,6 +26,6 @@
     }
 
     .card-img {
-        height: 60vh;
+        height: 40vh;
     }
 }
